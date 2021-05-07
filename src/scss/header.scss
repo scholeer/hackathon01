@@ -24,6 +24,7 @@ header {
     display: flex;
     justify-content: flex-end;
     width: auto;
+    // text-align: center;
     a {
       color: $nav_link_color;
       text-decoration: none;
@@ -33,6 +34,9 @@ header {
       color: black;
     }
   }
+}
+a:hover {
+  text-shadow: 2px 2px 2px #c0c0c0d0;
 }
 
 @media (max-width: 576px) {
