@@ -21,13 +21,12 @@ header {
   nav {
     margin-right: 10%;
     display: flex;
-    justify-content: space-between;
-    flex-wrap: nowrap;
-    width: 30%;
+    justify-content: flex-end;
+    width: auto;
     a {
       color: $nav_link_color;
       text-decoration: none;
-      padding: 0 5%;
+      width: 80px;
     }
     .header__nav--active {
       color: black;
@@ -46,6 +45,10 @@ header {
     }
     nav {
       justify-content: center;
+      margin-right: 0;
+      a {
+        text-align: center;
+      }
     }
   }
 }
