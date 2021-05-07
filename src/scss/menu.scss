@@ -1,0 +1,45 @@
+@import "variables.scss";
+
+@import "header.scss";
+
+main {
+  width: 100%;
+  font-weight: lighter;
+  font-size: 10px;
+  line-height: 200%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .main__heading {
+    display: flex;
+    justify-content: center;
+    width: $body_width;
+    text-align: left;
+    .h1__menu {
+      width: 100%;
+      text-align: left;
+    }
+  }
+  h1,
+  h2 {
+    font-weight: lighter;
+    padding-top: 20px;
+    // align-self: flex-start;
+  }
+  .menu {
+    display: flex;
+    justify-content: space-between;
+    width: $body_width;
+    padding: 10px 0;
+    &__drink {
+      width: 300px;
+    }
+  }
+  img {
+    width: $body_width;
+    margin-bottom: -30px;
+  }
+}
+
+@import "footer.scss";
