@@ -31,6 +31,13 @@ main {
     flex-direction: row;
     // justify-content: space-between;
     width: 100%;
+    @media (max-width: 576px) {
+      flex-direction: column;
+      align-items: center;
+      div {
+        width: 90%;
+      }
+    }
     div {
       width: 33%;
       margin: 0.5rem;
