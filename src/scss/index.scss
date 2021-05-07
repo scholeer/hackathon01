@@ -1,0 +1,15 @@
+@import "variables.scss";
+@import "map.scss";
+
+@import "header.scss";
+
+img {
+  width: 60%;
+}
+
+.mid-bar {
+  display: flex;
+  justify-content: space-around;
+}
+
+@import "footer.scss";
