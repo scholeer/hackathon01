@@ -1,13 +1,15 @@
-.gmap_canvas {
-            overflow: hidden;
-            background: none !important;
-            height: 500px;
-            width: 800px;
-          }
+@import "variables.scss";
 
-          .mapouter {
-            position: relative;
-            text-align: right;
-            height: 500px;
-            width: 800px;
-          }
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 500px;
+  width: $body_width;
+}
+
+.mapouter {
+  position: relative;
+  text-align: right;
+  height: 500px;
+  width: $body_width;
+}
