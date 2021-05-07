@@ -13,3 +13,10 @@
   height: 500px;
   width: 100%;
 }
+
+@media (max-width: 576px) {
+  // .gmap_canvas,
+  .mapouter {
+    width: 90%;
+  }
+}
