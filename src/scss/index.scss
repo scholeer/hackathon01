@@ -3,13 +3,41 @@
 
 @import "header.scss";
 
-img {
-  width: 60%;
-}
-
-.mid-bar {
+main {
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: -30px;
+  font-weight: lighter;
+  h1, h2 {
+    text-align: left;
+    width: $body_width;
+    text-transform: uppercase;
+    font-weight: lighter;
+    margin: 0.5rem;
+  }
+  img {
+    width: $body_width;
+  }
+
+  .mid-bar {
+    display: flex;
+    flex-direction: row;
+    // justify-content: space-between;
+    width: $body_width;
+    div {
+      width: 33%;
+      margin-bottom: 0.5rem;
+      h3 {
+        text-transform: uppercase;
+        font-weight: lighter;
+        margin: 1rem 0;
+      }
+      p {
+        line-height: 150%;
+      }
+    }
+  }
 }
 
 @import "footer.scss";
