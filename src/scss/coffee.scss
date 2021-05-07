@@ -4,6 +4,9 @@
 main {
   max-width: $body_width;
   margin: 0 auto;
+  @media (max-width: 576px) {
+    width: 90%;
+  }
 }
 
 h1 {
@@ -17,6 +20,9 @@ p {
   font-size: 20px;
   line-height: 1.75em;
   padding-bottom: 10px;
+  @media (max-width: 576px) {
+    line-height: 1.5;
+  }
   a {
     color: $link_color;
   }
@@ -36,6 +42,9 @@ p {
     width: 48%;
     background-color: $coffee_card_color;
     margin-bottom: 3%;
+    @media (max-width: 576px) {
+      width: 100%;
+    }
 
     img {
       background-size: cover;
@@ -47,7 +56,9 @@ p {
       font-weight: lighter;
       border-bottom: 1px solid rgba(104, 104, 104, 0.329);
       padding: 20px;
-
+      @media (max-width: 576px) {
+        padding: 15px;
+      }
       &__taste {
         font-size: 16px;
         font-style: italic;
