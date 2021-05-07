@@ -10,8 +10,24 @@
 header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   background-color: $nav_color;
   img {
     width: 10%;
+    margin-left: 10%;
+  }
+  nav {
+    margin-right: 10%;
+    display: flex;
+    flex-wrap: nowrap;
+    width: 30%;
+    a {
+      color: $nav_link_color;
+      text-decoration: none;
+      margin: 0 5%;
+    }
+    .header__nav--active {
+      color: black;
+    }
   }
 }
