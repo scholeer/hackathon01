@@ -8,10 +8,15 @@ footer {
   justify-content: center;
   height: 300px;
   color: $footer_font_color;
+
   nav {
-    padding-bottom: 7%;
+    // padding: 3% 0;
+    margin-bottom: 60px;
+    width: 100%;
+    text-align: center;
     a {
       color: $link_color;
+      margin: 0 2%;
     }
     .footer__nav__link--active {
       color: $footer_font_color;
@@ -21,6 +26,7 @@ footer {
     font-size: 20px;
     font-weight: bold;
     padding: 15px;
+    letter-spacing: 0.1em;
   }
   p {
     font-weight: lighter;
