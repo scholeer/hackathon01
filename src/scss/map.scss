@@ -12,11 +12,13 @@
   text-align: right;
   height: 500px;
   width: 100%;
+  margin-bottom: -30px;
 }
 
 @media (max-width: 576px) {
-  // .gmap_canvas,
+  .gmap_canvas,
   .mapouter {
-    width: 90%;
+    height: 250px;
+    margin-right: 0;
   }
 }
