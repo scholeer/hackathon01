@@ -4,35 +4,38 @@
 @import "header.scss";
 
 main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: -30px;
-  font-weight: lighter;
-  //   max-width: $body_width;
-  width: 100%;
-  padding: 2rem;
+  max-width: $body_width;
   margin: auto;
-  h1 {
-    text-align: left;
-    width: $body_width;
-    text-transform: uppercase;
-    font-weight: lighter;
-    margin: 0.5rem;
-    width: 100%;
-    @media (max-width: 576px) {
-      //   width: 90%;
-      line-height: 1.5;
-    }
+  @media (max-width: 1200px) {
+    padding: 0 5%;
   }
 
-  img {
-    width: 100%;
-    padding-top: 20px;
-    width: 80%;
-
-    @media (max-width: 576px) {
-      width: 90%;
+  .people {
+    display: flex;
+    justify-content: space-between;
+    @media (max-width: 1200px) {
+      flex-wrap: wrap;
+    }
+    &__card {
+      width: 33%;
+      height: 350px;
+      overflow: hidden;
+      img {
+        height: 300px;
+      }
+    }
+    .jade {
+      background-image: url(../img/jade.jpg);
+      background-position: right;
+    }
+    .vincent {
+      background-image: url(../img/barista.jpg);
+      background-position: center;
+    }
+    .wayne {
+      background-image: url(../img/owner.jpg);
+      background-size: cover;
+      background-position: center;
     }
   }
 }
