@@ -1,6 +1,5 @@
 @import "variables.scss";
 @import "map.scss";
-
 @import "header.scss";
 
 main {
@@ -13,6 +12,7 @@ main {
   .people {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 2em;
     @media (max-width: 1200px) {
       flex-wrap: wrap;
     }
@@ -73,8 +73,11 @@ main {
   .form {
     display: flex;
     flex-direction: column;
-    margin: auto;
+    margin-top: 2rem;
     align-items: center;
+    &__top {
+      top: 2em;
+    }
   }
 }
 
